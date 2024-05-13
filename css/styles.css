@@ -1,0 +1,47 @@
+#landing-image {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+#landing {
+	margin-top: 75px;
+}
+
+#landing,
+#about-me,
+#projects,
+#contact-me {
+	min-height: 80vh;
+	/* center the content vertically using flexbox */
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 5px;
+	height: 100%;
+}
+
+#about-me {
+	background-color: #999999;
+	color: #FFFFFF;
+}
+
+#projects {
+	background-color: #555555;
+	color: #FFFFFF;
+}
+
+#contact-me {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#navbarattr {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#navbarattr a {
+	color: #FFFFFF;
+}
